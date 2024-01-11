@@ -167,6 +167,17 @@ main section {
 }
 
 /*Resume section style  */
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-column-title {
+    margin-top: 113px;
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
 
 .resume-column-title {
     color: #474747;
@@ -175,4 +186,23 @@ main section {
 
     font-weight: 700;
 
+}
+
+.resume-item-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.resume-item-inistitute{
+    color: #757575;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.download-CV{
+    text-align: center;
+    margin-top: 50px;
 }
