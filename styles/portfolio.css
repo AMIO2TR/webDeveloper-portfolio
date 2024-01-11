@@ -54,7 +54,7 @@ nav a {
 }
 
 .section-title {
-    color: #757575;
+    color: #181818;
     text-align: center;
     font-size: 35px;
 
@@ -64,10 +64,8 @@ nav a {
 .section-description {
     color: #757575;
     text-align: center;
-
     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
+    padding-left: 156px;
 
 }
 
@@ -145,7 +143,10 @@ main section {
 
 
 #what-i-do-description {
+    margin-top: 30px;
     padding: 30px 150px;
+    text-align: center;
+    color: #757575;
 }
 
 /* skill related styles */
@@ -192,17 +193,51 @@ main section {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
-    
+
 }
-.resume-item-inistitute{
+
+.resume-item-inistitute {
     color: #757575;
     margin-bottom: 20px;
     margin-top: 0px;
 }
-.resume-container hr{
+
+.resume-container hr {
     margin: 30px;
 }
-.download-CV{
+
+.download-CV {
     text-align: center;
     margin-top: 50px;
+}
+
+/* Footer styles1 */
+footer {
+    display: flex;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+    gap: 100px;
+    
+}
+/* #footer-description{
+    text-align: left;
+    padding-top: 20px;
+} */
+.footer-column {
+    width: 50%;
+}
+.social-links a{
+    margin-right: 25px;
+}
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background:  #FFF;
+    border: 0;
+    width: 100%;
 }
